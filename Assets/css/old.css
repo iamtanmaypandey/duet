@@ -1,0 +1,424 @@
+
+.teammed-footer{
+    /* padding-top:20px;*/
+      background:rgb(0, 0, 0);
+     bottom:0;
+     max-width: 100%;
+     width:100%;
+     padding-bottom:20px;
+     padding-left:10px;
+     padding-right:10px;
+     position: relative;
+     color:white;
+ }
+ .teammed-footer .logo img{
+     position: relative;
+     width:70px;
+     transform: translateY(-50px); 
+ }
+ .teammed-40px-upper{
+     transform: translateY(-30px);
+ }
+ .navbar{max-width: 100%;}
+ .sm-box{
+     float:left;
+     padding-left:10px;
+     padding-right:10px;
+ }
+ .teammed-testimonial{
+     padding-top:20px;
+     padding-bottom:20px;
+ }
+ 
+ 
+ .shift-up{
+     transform:translateY(-80px);
+ }
+ .medcare-card .text{
+     justify-content: left;
+     display:flex;
+ }
+ .medcare-think-card img{
+     
+     height:300px;
+ }
+ .left{
+     float:left;
+ }
+ .w-20{width:20%;}
+ .w-80{width:80%;}
+ .feature{
+     padding-left: 10px;
+     padding-right: 10px;
+     padding-top:20px;
+     padding-bottom: 20px;
+ }
+ .feature-main{
+     padding-left: 10px;
+     padding-right: 10px;
+     width:100%;
+ }
+ .feature-main .feature .card-feature-4{
+     padding-left: 15%;
+     padding-right: 15%;
+ 
+ }
+ .feature-main .feature .card-feature-4 .card-1{
+     border-radius: 20px;
+     padding-top:30px;
+     min-height:100px;
+     height:170px;
+ }
+ .feature-main .feature .card-feature-4 .card-2{
+     border-radius: 20px;
+     padding-top:30px;
+     min-height:100px;
+     padding-bottom:30px;
+     height:170px;
+ }
+ .feature-main .feature .card-feature-4 .card-3{
+     border-radius: 20px;
+     padding-top:30px;
+     min-height:100px;
+     padding-bottom:30px;
+     height:170px;
+ }
+ .no-overflow{
+     overflow-x: hidden;
+     overflow-y:hidden;
+ }
+ .fade-up{
+     animation-name:get-up;
+     animation-duration: 1s;
+     animation-iteration-count: 1;
+ }
+ @keyframes get-up{
+     0%{
+         transform: translateY(30px);
+     }
+     100%{
+         transform: translateY(0px);
+     }
+ }
+ #card-2 , #card-3 , #card-4{display: none;}
+ .medcare-feature-btn{
+     border:2px solid #fdd5ce;
+     background: none;
+     padding-top:10px;
+     padding-bottom:10px;
+     padding-left:15px;
+     padding-right:15px;
+     border-radius:10px;
+ }
+ .clicked{
+     background:#a2433e;
+     color:white;
+ }
+ .w-30{
+     float:left;
+     width:30%;
+ }
+ .w-70{
+     float:left;
+     width:70%;
+ }
+ .card-last{
+     color:white;
+ }
+ .a-bit-up{
+     transform: translateY(-30px);
+ }
+ .filter-1{
+     filter: invert(0%) sepia(77%) saturate(368%) hue-rotate(292deg) brightness(104%) contrast(95%);
+ }
+
+ 
+.teammed-slides {
+    display: none;
+}
+
+.medcare-primary-text {
+    color: #a2433e
+}
+
+.medcare-primary-bg {
+    background: #a2433e;
+}
+
+.medcare-secondary-bg {
+    background: #de9e94;
+}
+
+.medcare-secondary-text {
+    color: #de9e94;
+}
+
+.medcare-tertiary-text {
+    color: #e8b2a8;
+}
+
+.medcare-tertiary-bg {
+    background: #e8b2a8;
+}
+
+.medcare-quad-text {
+    color: #fdd5ce;
+}
+
+.medcare-quad-bg {
+    background: #fdd5ce;
+}
+
+.medcare-fifth-bg {
+    background: #ff487e;
+}
+
+.medcare-fifth-text {
+    color: #ff487e;
+}
+
+.medcare-2-primary-text {
+    color: #f9ecec;
+}
+
+.medcare-2-primary-bg {
+    background: #f9ecec;
+}
+
+.medcare-2-secondary-text {
+    color: #f0d9da;
+}
+
+.medcare-2-secondary-bg {
+    background: #f0d9da;
+}
+
+.medcare-2-tertiary-text {
+    color: #c8d9eb;
+}
+
+.medcare-2-tertiary-bg {
+    background: #c8d9eb;
+}
+
+.medcare-2-quad-text {
+    color: #ecf2f9;
+}
+
+.medcare-2-quad-bg {
+    background: #ecf2f9;
+}
+
+.feature-card {
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 100%;
+}
+
+/*.btn-medcare-waitlist{
+    padding-left:15px;
+    padding-right:15px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    color:white;
+    background-color: #a2433e;
+}
+.box-icon{
+    padding-left:5px;
+    padding-right:5px;
+    display:none;
+}*/
+.btn-medcare-waitlist {
+    min-width: 200px;
+    min-height: 60px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-weight: 700;
+    color: white;
+    background: #a2433e;
+    border: none;
+    border-radius: 1000px;
+    box-shadow: 12px 12px 24px rgba(79, 209, 197, .64);
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    padding: 10px;
+}
+
+.btn-medcare-waitlist::before {
+    content: '';
+    border-radius: 1000px;
+    min-width: calc(300px + 12px);
+    min-height: calc(60px + 12px);
+    box-shadow: 0 0 0px #e8b2a8;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all .3s ease-in-out 0s;
+}
+
+.btn-medcare-waitlist:hover,
+.btn-medcare-waitlist:focus {
+    color: #313133;
+    transform: translateY(-6px);
+}
+
+.btn-medcare-waitlist:hover::before,
+.btn-medcare-waitlist:focus::before {
+    opacity: 1;
+}
+
+.btn-medcare-waitlist::after {
+    content: '';
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 6px solid #a2433e;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: ring 1.5s infinite;
+}
+
+.btn-medcare-waitlist:hover::after,
+.btn-medcare-waitlist:focus::after {
+    animation: none;
+    display: none;
+}
+
+@keyframes ring {
+    0% {
+        width: 30px;
+        height: 30px;
+        opacity: 1;
+    }
+
+    100% {
+        width: 180px;
+        height: 180px;
+        opacity: 0;
+    }
+}
+
+/*second button-waitlist*/
+.btn-medcare-waitlist-2 {
+    min-width: 200px;
+    min-height: 60px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-weight: 700;
+    color: white;
+    background: #a2433e;
+    border: none;
+    border-radius: 1000px;
+    box-shadow: 12px 12px 24px rgba(79, 209, 197, .64);
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    padding: 10px;
+}
+
+.btn-medcare-waitlist-2::before {
+    content: '';
+    border-radius: 1000px;
+    min-width: calc(300px + 12px);
+    min-height: calc(60px + 12px);
+    box-shadow: 0 0 0px #e8b2a8;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all .3s ease-in-out 0s;
+}
+
+.btn-medcare-waitlist-2:hover,
+.btn-medcare-waitlist-2:focus {
+    color: #313133;
+    transform: translateY(-6px);
+}
+
+.btn-medcare-waitlist-2:hover::before,
+.btn-medcare-waitlist-2:focus::before {
+    opacity: 1;
+}
+
+.btn-medcare-waitlist-2::after {
+    content: '';
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 6px solid #a2433e;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn-medcare-waitlist-2:hover::after,
+.btn-medcare-waitlist-2:focus::after {
+    animation: none;
+    display: none;
+}
+
+@keyframes ring {}
+
+
+.medcare-context-text {
+    color: rgba(79, 209, 197, .64);
+}
+
+.medcare-context-bg {
+    background: rgba(79, 209, 197, .64);
+}
+
+.medcare-super {
+    padding-top: 15px;
+    padding-bottom: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 100%;
+}
+
+.medcare-full-div {
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 20px;
+    height: 250px;
+    overflow: hidden;
+}
+
+.medcare-card-parent {
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.teammed-testimonial-slide {
+    display: none;
+}
+
+.teammed-alert-box {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    color: white;
+    display: none;
+}

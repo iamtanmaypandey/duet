@@ -1,0 +1,27 @@
+#loader{
+    top:0;
+    left:0;
+    height:100vh;
+    position:fixed;
+    z-index:99999;
+    background-color: #a2433e;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    width:100%;
+}
+#loader img{
+    animation:hehe 1s infinite;
+}
+@keyframes hehe {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}

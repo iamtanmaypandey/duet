@@ -1,0 +1,110 @@
+<p id="testimonial" style="padding-top:30px">
+    <center>
+        <h3>
+            <span class="text-dark">Happy</span> TeamMed
+            <span class="medcare-primary-text"> Care</span>
+             Users
+        </h3>
+    </center>
+</p>
+<!--slide 1-->
+<div class="teammed-testimonial-slide">
+    <div style="padding-top:60px;">
+        <center>
+            <img src="./Assets/Image/people/test1.png" width="180px"/>
+        </center>
+    </div>
+    <div class="teammed-testimonial medcare-primary-bg">
+        <center>
+        <div class="shift-up">
+            <center>
+                <div class="medcare-card">
+                    <div class="text">
+                        "As a busy working mother, I struggled to find the time 
+                        to schedule doctor's appointments. But with 
+                        TeamMed Care's virtual health portal, I can now easily
+                         consult with doctors and healthcare professionals from my home.
+                          It's been a game-changer for me and my family."
+                    </div>
+                    <div class="user">
+                        Priya Sharma
+                    </div>
+                </div>
+            </center>
+        </div>
+        </center>
+    </div>    
+</div>
+
+<!--slide 2-->
+<div class="teammed-testimonial-slide no-overflow">
+    <div style="padding-top:60px;">
+        <center>
+            <img src="./Assets/Image/people/test2.png" style="height:270px"/>
+        </center>
+    </div>
+    <div class="teammed-testimonial medcare-primary-bg">
+        <center>
+        <div class="shift-up">
+            <center>
+                <div class="medcare-card">
+                    <div class="text">
+                        "I was suffering from chronic stress and anxiety,
+                         but with the help of TeamMed Care's wellness talks,
+                          I've managed my symptoms and improved my overall mental health.
+                           The expert speakers are knowledgeable and engaging,
+                            and the sessions are always informative and uplifting."
+                    </div>
+                    <div class="user">
+                        Jotsaroop Kaur
+                    </div>
+                </div>
+            </center>
+        </div>
+        </center>
+    </div>    
+</div>
+
+<!--slide 3>
+<div class="teammed-testimonial-slide">
+    <div style="padding-top:60px;">
+        <center>
+            <img src="./Assets/Image/people/woman-testimonial-2.png" width="180px"/>
+        </center>
+    </div>
+    <div class="teammed-testimonial medcare-primary-bg">
+        <center>
+        <div class="shift-up">
+            <center>
+                <div class="medcare-card">
+                    <div class="text">
+                        "I was skeptical about using Greenie, but after giving it a try, 
+                        I was blown away by how fast and accurate the verification process was."
+                    </div>
+                    <div class="user">
+                        Tanmay
+                    </div>
+                </div>
+            </center>
+        </div>
+        </center>
+    </div>    
+</div>
+-->
+
+<script>
+    var slideIndex2 = 0;
+    carousell();
+
+    function carousell() {
+        var i;
+        var x = document.getElementsByClassName("teammed-testimonial-slide");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        slideIndex2++;
+        if (slideIndex2 > x.length) { slideIndex2 = 1 }
+        x[slideIndex2 - 1].style.display = "block";
+        setTimeout(carousell, 2000); // Change image every 2 seconds
+    }
+</script>

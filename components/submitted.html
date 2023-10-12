@@ -1,0 +1,26 @@
+<style>
+    .teammed-submitted{
+        top:30%;
+        left:10%;
+        width:80%;
+        background:white;
+        color:black;
+        border-radius:20px;
+        padding-top:20px;
+        padding-bottom:20px;
+        padding-left:10%;
+        padding-right:10%;
+        position:fixed;
+        z-index:999;
+    }
+</style>
+<div id="teammed-thank" class="teammed-submitted">
+    <h2 class="medcare-primary-text">Thankyou !</h2>
+    <h3 class="text-dark">Your response has been recorded, and we would get back to you soon!.</h3>
+    <button onclick="closeconfirm()" class="btn btn-secondary">X</button>
+</div>
+<script>
+    function closeconfirm(){
+        document.getElementById('teammed-thank').style.display='none';
+    }
+</script>

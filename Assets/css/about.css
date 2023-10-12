@@ -1,0 +1,14 @@
+.about-padding{
+    padding-left:5%;
+    padding-right: 5%;
+    width:40%;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+.about-medcare-card{
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius:20px;
+}

@@ -1,0 +1,47 @@
+.nav-menu {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.nav-menu nav {
+    background-color: #0b0b15;
+    z-index: 999;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    position: fixed;
+    width: 90%;
+    border-radius: 70px;
+}
+
+.navigation-link {
+    color: #ffffff !important;
+}
+
+.get-started-wrapper {
+    border-radius: var(--br-3xs);
+    background: linear-gradient(93.87deg,
+            #6ab6fc,
+            #5b63dd 20.83%,
+            #9a44b3 40.1%,
+            #ca4587 60.94%,
+            #d45062 80.21%,
+            #e77944);
+    box-shadow: 0 85px 80px rgba(64, 127, 85, 0.08),
+        0 25.625011444091797px 24.12px rgba(64, 127, 85, 0.05),
+        0 10.643319129943848px 10.02px rgba(64, 127, 85, 0.04),
+        0 3.849479913711548px 3.62px rgba(64, 127, 85, 0.03);
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 0px;
+    color: white !important;
+}
+
+.get-started-wrapper .get-started{
+    color:white;
+    background-color: inherit;
+}

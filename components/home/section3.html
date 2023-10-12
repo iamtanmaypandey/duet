@@ -1,0 +1,171 @@
+<p id="waitlist" style="padding-top:30px"></p>
+<center>
+    <div class="feature-main">
+        <div class="col-sm-6" style="padding-left:10px;padding-right:10px">
+            <div class="feature">
+                <center>
+                    <h3><span class="text-dark">TeamMed</span> <span class="medcare-primary-text">Care</span> got it for
+                        you.</h3>
+                </center>
+                <p style="padding-top:10px"></p>
+                <center>
+                    <p class="medcare-secondary-text" style="padding-left:30px;padding-right:30px;padding-bottom:10px">
+                        The only four steps you need.
+                    </p>
+                    <div class="row">
+                        <div class="col-sm-3" style="padding-bottom:10px">
+                            <button class="medcare-feature-btn" onclick="opencard(1)">History</button>
+                        </div>
+                        <div class="col-sm-3" style="padding-bottom:10px">
+                            <button class="medcare-feature-btn" onclick="opencard(2)">Symptoms</button>
+                        </div>
+                        <div class="col-sm-3" style="padding-bottom:10px">
+                            <button class="medcare-feature-btn" onclick="opencard(3)">Diagnosis</button>
+                        </div>
+                        <div class="col-sm-3" style="padding-bottom:10px">
+                            <button class="medcare-feature-btn" onclick="opencard(4)">Strategy</button>
+                        </div>
+
+                    </div>
+
+                </center>
+
+            </div>
+        </div>
+        <div class="col-sm-8" style="padding-left:10px;padding-right:10px">
+            <div class="feature ">
+
+                <!--Feature Card 1-->
+                <div id="card-1" class="card-feature-4">
+                    <div class="card-1 medcare-2-primary-bg">
+                        <div class="feature-card medcare-primary-text">
+                            <div class="row" style="max-width:100%">
+                                <div class="col-sm-8">
+                                    <h5>History</h5>
+                                    <p>Tell your personal manager all about your medical conditions.</p>
+                                </div>
+                                <div class="col-sm-4">
+                                    <img class="filter-1" src="./Assets/Image/graphic/report.png"
+                                        style="max-width:100%;" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Feature Card 2-->
+                <div id="card-2" class="card-feature-4">
+                    <div class="card-1 medcare-2-primary-bg">
+                        <div class="card-1 fade-up medcare-quad-bg">
+                            <div class="feature-card medcare-primary-text">
+
+                                <div style="max-width:100%" class="row">
+                                    <div class="col-sm-8">
+                                        <h5>Symptoms</h5>
+                                        <p> Share how you feel with our manager, in detail.</p>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <img src="./Assets/Image/graphic/symptoms.png" style="max-width:100%" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Feature Card 3-->
+                <div id="card-3" class="card-feature-4">
+                    <div class="card-1 medcare-2-primary-bg">
+                        <div class="card-1 fade-up medcare-quad-bg">
+                            <div class="card-1 medcare-tertiary-bg">
+                                <div class="feature-card medcare-primary-text">
+                                    <div style="max-width:100%" class="row">
+                                        <div class="col-sm-8">
+                                            <h5>Diagnosis</h5>
+                                            <p>Talk to our expert Gynaecologists.</p>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <img class="filter-1" src="./Assets/Image/graphic/diagnosis.png" style="max-width:100%;" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Feature Card 4-->
+                <div id="card-4" class="card-feature-4">
+                    <div class="card-1 medcare-2-primary-bg">
+                        <div class="card-1 fade-up medcare-quad-bg">
+                            <div class="card-1 medcare-tertiary-bg">
+                                <div class="card-1 medcare-secondary-bg">
+                                    <div class="feature-card medcare-primary-text">
+                                        <div style="max-width:100%" class="row">
+                                            <div class="col-sm-8">
+                                                <h5>Strategy</h5>
+                                                <p> Your customized healthplan is ready.</p>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <img class="filter-1" src="./Assets/Image/graphic/strategy.png" style="max-width:100%" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</center>
+<p style="padding-top:120px">
+    <center>
+        <h3><span class="medcare-primary-text">Ready</span> to hack your <span
+                class="medcare-secondary-text">life</span> ?</h3>
+        <p style="padding-top:70px"></p>
+        <a href="https://www.instamojo.com/@rishovmondal/l0e722145cb194bf4b756eba3e04e0565/" target="_blank">
+            <button class="btn-medcare-waitlist" style="color:white;">
+                <i class="fa-solid fa-arrow-right"></i>&nbsp;&nbsp;Subscribe @ <big>299</big>
+            </button>
+        </a>
+
+
+    </center>
+</p>
+<p style="padding-top:60px" id="testimonial"></p>
+
+<script>
+    function opencard(x) {
+        var c1 = document.getElementById('card-1');
+        var c2 = document.getElementById('card-2');
+        var c3 = document.getElementById('card-3');
+        var c4 = document.getElementById('card-4');
+        if (x == '1') {
+            c2.style.display = 'none';
+            c3.style.display = 'none';
+            c4.style.display = 'none';
+            c1.style.display = 'block';
+        }
+        if (x == '2') {
+            c1.style.display = 'none';
+            c3.style.display = 'none';
+            c4.style.display = 'none';
+            c2.style.display = 'block';
+        }
+        if (x == '3') {
+            c2.style.display = 'none';
+            c1.style.display = 'none';
+            c4.style.display = 'none';
+            c3.style.display = 'block';
+        }
+        if (x == '4') {
+            c2.style.display = 'none';
+            c3.style.display = 'none';
+            c1.style.display = 'none';
+            c4.style.display = 'block';
+        }
+    }
+</script>

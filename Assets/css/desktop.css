@@ -1,0 +1,111 @@
+@media(min-width:993px){
+    .callout-1{
+        width:230px;
+        padding-left:0px;
+        padding-right:10px;
+        padding-top:10px;
+        padding-bottom:10px;
+        border-radius:20px;
+        animation-name: coming;
+        animation-duration: 1.5s;
+        animation-iteration-count: 1;
+        color:white;
+        transform:translate(230px,70px);
+        font-size: 12px;
+        opacity: 0.7;
+    }
+    .callout-2{
+        width:230px;
+        padding-left:0px;
+        padding-right:10px;
+        padding-top:10px;
+        padding-bottom:10px;
+        border-radius:20px;
+        animation-name: coming-2;
+        animation-duration: 1.5s;
+        animation-iteration-count: 1;
+        color:white;
+        transform:translate(230px,-70px);
+        font-size: 12px;
+        opacity:0.7;
+    }
+    .callout-3{
+        width:240px;
+        padding-left:15px;
+        padding-right:10px;
+        padding-top:10px;
+        padding-bottom:10px;
+        border-radius:20px;
+        animation-name: coming-3;
+        animation-duration: 1.2s;
+        animation-iteration-count: 1;
+        color:white;
+        transform:translate(-230px,-190px);
+        font-size: 12px;
+        opacity:0.7;
+    }
+    @keyframes coming{
+        0%{
+            opacity:0;
+            transform:translate(50px,90px);
+           
+    
+        }
+        100%{
+            opacity:0.7;
+            transform:translate(230px,70px);
+        }
+    }
+    @keyframes coming-2{
+        0%{
+            opacity:0;
+            transform:translate(50px,-200px);
+        }
+        100%{
+            opacity:0.7;
+            transform:translate(230px,-70px);
+        }
+    }
+    @keyframes coming-3{
+        0%{
+            opacity:0;
+            transform:translate(-100px,-200px);
+        }
+        100%{
+            opacity:0.7;
+            transform:translate(-230px,-190px);
+        }
+    }
+    .medcare-think-card{
+    padding-top:15px;
+    border-radius:20px;
+    padding-left:10px;
+    padding-right:10px;
+    width:380px;
+}
+.medcare-text-center{
+    width:400px;
+    padding-left:15px;
+    padding-right:15px;
+}
+.medcare-card{
+    padding-top:15px;
+    padding-bottom:15px;
+    border-radius:20px;
+    padding-left:10px;
+    padding-right:10px;
+    width:380px;
+    background:white;
+}
+.colorbox-black{
+    background:black;
+    border-radius:50%;
+    height:20px;
+    width:20px;
+}
+.medcare-full-div img{
+    height:150px;
+    float:right;
+    bottom:0;
+}
+}
