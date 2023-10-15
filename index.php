@@ -23,8 +23,8 @@
     <?php include("./components/home/section5.html");?>
     <?php include("./components/home/section6.html");?>
     <?php include("./components/home/section7.html");?>
-    <?php //include("./components/home/subscribe.html");?>
-    <?php //include("./components/footer.html");?>
+    <?php include("./components/home/section8.html");?>
+    <?php include("./components/footer.html");?>
 
   </div>
 </body>
