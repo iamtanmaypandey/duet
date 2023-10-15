@@ -17,9 +17,12 @@
     ?>
     <?php include("./components/nav.html");?>
     <?php include("./components/home/section1.html");?>
-    <?php //include("./components/home/section2.html");?>
-    <?php //include("./components/home/section3.html");?>
-    <?php //include("./components/home/testimonial.html");?>
+    <?php include("./components/home/section2.html");?>
+    <?php include("./components/home/section3.html");?>
+    <?php include("./components/home/section4.html");?>
+    <?php include("./components/home/section5.html");?>
+    <?php include("./components/home/section6.html");?>
+    <?php include("./components/home/section7.html");?>
     <?php //include("./components/home/subscribe.html");?>
     <?php //include("./components/footer.html");?>
 

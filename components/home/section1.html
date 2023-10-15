@@ -1,19 +1,46 @@
 <p style="padding-top:90px"></p>
-<div class="row" style="max-width: 100%;">
-    <div class="col-sm-6 hero-container">
-        <center>
-            <div class="empowering-your-health">Empowering your Health Journey <span class="homepage-child"></span></div>
-            <br>
-            <div class="duet-xxlarge">A PCOS plan that follows you</div>
-            <p style="padding-top:50px"></p>
-            <div class="get-started-wrapper" style="width:fit-content;padding-left:20px;font-size:25px;">
-                <div class="get-started">
-                    Get Started
+<center>
+    <div class="row" style="max-width: 100%;">
+        <div class="col-sm-6 hero-container">
+            <center>
+                <div class="section-heading">Empowering your Health Journey </div>
+                <br>
+                <div class="duet-xxlarge">A PCOS plan that follows you</div>
+                <p style="padding-top:50px"></p>
+                <div class="get-started-wrapper" style="width:fit-content;padding-left:20px;font-size:25px;">
+                    <div class="get-started">
+                        Get Started
+                    </div>
                 </div>
-            </div>
-        </center>
+            </center>
+        </div>
+        <div class="col-sm-6">
+            <img src="./Assets/public/mask-group@2x.png" width="100%"/>
+        </div>
     </div>
-    <div class="col-sm-6">
-        <img src="./Assets/public/mask-group@2x.png" width="100%"/>
+    
+</center>
+
+<center>
+    <div style="z-index:99;" class="notsure" id='notsurebox'>
+        <div class="notsurebox">
+            <span style="font-weight: 600;font-size: 20px;">Not sure how to get started?</span>
+            <span style="padding-left: 10px;"></span>
+            <span style="font-size: 18px;">Book a free Consultation call </span>
+            <span style="padding-left:10px"></span>
+            <span class="common-box-wrapper">
+                <span>Book Now</span>
+            </span>
+            <span style="padding-left: 10px;"></span>
+            <span style="transform: translateY(10px);font-size: 20px;" onclick="closenotsure()">&times;</span>
+                
+        </div>
     </div>
-</div>
+</center>
+<script>
+    var notsure = document.getElementById('notsurebox');
+    var unset = 0;
+    function closenotsure(){
+        notsure.style.display='none';
+    }
+</script>
