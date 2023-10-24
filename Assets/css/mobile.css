@@ -124,4 +124,9 @@
 .mobile-hide{
     display: none;
 }
+.another-up {
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
 }
