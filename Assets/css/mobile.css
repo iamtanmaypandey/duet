@@ -129,4 +129,11 @@
     padding-left: 10%;
     padding-right: 10%;
 }
+.slider-duet div {
+    bottom: 10px;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+}
+
 }
