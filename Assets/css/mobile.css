@@ -121,4 +121,7 @@
     bottom:0;
     z-index:-5;
 }
+.mobile-hide{
+    display: none;
+}
 }

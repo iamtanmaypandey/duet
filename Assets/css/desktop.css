@@ -108,4 +108,7 @@
     float:right;
     bottom:0;
 }
+.desktop-hide{
+    display: none;
+}
 }
