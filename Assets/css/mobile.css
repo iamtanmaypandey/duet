@@ -152,11 +152,13 @@
 
 .left-slide{
     padding-top:50px;
+    display: none;
 }
 .center-slide{
     padding-top:20px;
 }
 .right-slide{
     padding-top:50px;
+    display: none;
 }
 }
