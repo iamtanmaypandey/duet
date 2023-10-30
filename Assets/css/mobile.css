@@ -136,4 +136,27 @@
     width: 100%;
 }
 
+.slides-to-about {
+    display: inline;
+}
+
+.slides-to-about .slides {
+    height:auto;
+    width: 100%;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width:50%;
+    position: absolute;
+}
+
+.left-slide{
+    padding-top:50px;
+}
+.center-slide{
+    padding-top:20px;
+}
+.right-slide{
+    padding-top:50px;
+}
 }
