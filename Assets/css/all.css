@@ -791,7 +791,7 @@ span.cursor.typing {
     height: 500px;
     overflow: hidden;
     animation-name: reveal-2;
-    animation-duration: 4s;
+    animation-duration: 1.5s;
     animation-iteration-count: infinite;
   }
   @keyframes reveal-2{
