@@ -150,6 +150,9 @@
         </div>
         <p style="padding-top:100px"></p>
         <center>
+            <span class="third-section">
+                <span style="color: #0acca0;">This Program</span> is for you, if you are a
+            </span>
             <div class="row" style="max-width: 70%;">
                 <div class="col-sm-6">
                     <p style="padding-top:10px"></p>
@@ -157,12 +160,6 @@
 
                 </div>
                 <div class="col-sm-6">
-
-                    <span class="third-section">
-                        <span style="color: #0acca0;">This Program</span> is for you, if you are a
-                    </span>
-
-                    
                     <div class="section-program-for-you">
                         
                         <div class="green-bulletin">
@@ -223,12 +220,7 @@
                                 </div>
                             </div>
                         </div>
-
-                    </div>
-
-
-                    <div class="section-program-for-you" style="display: none;">
-                        
+                        <p style="padding-top:10px"></p>
                         <div class="green-bulletin">
                             <div class="row">
                                 <div class="col-sm-2">
@@ -290,11 +282,10 @@
                         </div>
 
                     </div>
-
                 </div>
             </div>
         </center>
-        <p style="padding-top:100px"></p>
+        
         <center>
             <div class="row" style="max-width: 80%;">
                 <div class="col-sm-6">
@@ -576,7 +567,13 @@
         </div>
         <center>
             <p style="padding-top:25px"></p>
-            <img src="./svgs/duett.svg" width="70%" />
+           
+            <img src="./svgs/Group 37136.svg" width="500px"/>
+            <br>
+            <img class="duet-icon-1" src="./svgs/Group 8716.png" width="150px"/>
+            <img class="duet-icon-2" src="./svgs/Group 8717.png" width="150px"/>
+            <img class="duet-icon-3" src="./svgs/Group 8718.png" width="150px"/>
+            <img class="duet-icon-4" src="./svgs/Group 8719.png" width="150px"/>
 
         </center>
         <p style="padding-top:100px"></p>
@@ -1091,6 +1088,13 @@
     </div>
 </body>
 <script>
+    var r = document.querySelector(':root');
+    var width = document.body.clientWidth;
+    r.style.setProperty('--widthm', width+'px');
+    r.style.setProperty('--widthm_half', '-'+width+'px');
+    r.style.setProperty('--widthm_half_p', width+'px');
+
+
     function onReady(callback) {
         var intervalId = window.setInterval(function () {
             if (document.getElementsByTagName('body')[0] !== undefined) {
@@ -1191,25 +1195,7 @@
         right_boxes[right].style.display = 'block';
 
     }
-    var slidder = 0;
-    var yourprogram = document.getElementsByClassName('section-program-for-you');
-    setInterval(slidertoaster, 1500);
-    function slidertoaster() {
-        if (slidder == 0) {
-            yourprogram[0].style.display = 'none';
-            yourprogram[1].style.display = 'block';
-            slidder = 1;
-        }
-        else {
-            if (slidder == 1) {
-                yourprogram[1].style.display = 'none';
-                yourprogram[0].style.display = 'block';
-                slidder = 0;
-            }
-        }
-
-    }
-
+    
 
     /*typing effect code*/
     const typedTextSpan = document.querySelector(".typed-text");
@@ -1253,6 +1239,44 @@ function erase() {
 document.addEventListener("DOMContentLoaded", function() { // On DOM Load initiate the effect
   if(textArray.length) setTimeout(type, newTextDelay + 250);
 });
+
+
+/* this program is for you js code */
+
+var slidder = 0;
+    var yourprogram = document.getElementsByClassName('green-bulletin');
+    setInterval(slidertoaster, 1500);
+    function slidertoaster(){
+        if(slidder == 6){
+            for(let i = 0; i < 6; i++){
+                yourprogram[i].style.display='none';
+            }
+            slidder = 0;
+        }   
+        else{
+            /*yourprogram[slidder].style.display='none';*/
+            slidder = slidder + 1;
+            yourprogram[slidder].style.display='block';
+        } 
+    }
+
+    /* powerpack js code */
+    var sliddder = 0;
+    var yourprogrram = document.getElementsByClassName('card-powerpack');
+    setInterval(sliddertoaster, 1500);
+    function sliddertoaster(){
+        if(sliddder == 5){
+            for(let i = 0; i < 6; i++){
+                yourprogrram[i].style.display='none';
+            }
+            sliddder = 0;
+        }   
+        else{
+            /*yourprogram[slidder].style.display='none';*/
+            sliddder = sliddder + 1;
+            yourprogrram[sliddder].style.display='block';
+        } 
+    }
 </script>
 
 <!-- core  -->
