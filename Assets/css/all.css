@@ -274,19 +274,26 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
+    animation-name: ease-in-come;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
 }
-
+@keyframes ease-in-come {
+0%{ opacity: 0; transform: translateX(300px)}
+100% {opacity :1;right:0%;}    
+}
 .slider-duet div {
     bottom: 10px;
     position: absolute;
     overflow: hidden;
-    width: 38%;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 100%;
 }
 
 .another-up {
-    width: 60%;
-    padding-left: 10%;
-    padding-right: 10%;
+    width: 100%;
+    
 }
 
 .habibi {
@@ -629,6 +636,20 @@ body {
 #another-up-10 {
     display: none;
 }
+
+#another-ups-2,
+#another-ups-3,
+#another-ups-4,
+#another-ups-5,
+#another-ups-6,
+#another-ups-7,
+#another-ups-8,
+#another-ups-9,
+#another-ups-10 {
+    display: none;
+}
+
+
 
 .button-arrows {
     padding-top: 10px;
