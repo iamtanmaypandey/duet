@@ -656,9 +656,10 @@ body {
     padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    background-color: azure;
+    background-color: var(--color-dar);
     color: var(--color-royalblue);
     border-radius: 50%;
+    font-weight: bolder;
 }
 
 
@@ -906,3 +907,37 @@ span.cursor.typing {
     75%{transform: translateY(-220px) translateX(130px);}
     100%{transform: translateY(-170px) translateX(-250px);}
 }
+
+.another-ups div{
+    overflow: hidden;
+    width:100%;
+
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: #0B0B15;
+    color:white;
+    display: none;
+    padding-top:10px;
+    padding-bottom: 10px;
+    overflow: hidden;
+  }
+
+.accordion{
+    padding-top:20px;
+    padding-bottom: 20px;
+    width:100%;
+    color:white;
+    background-color: #10101E;
+    padding-left:10%;
+    padding-right:10%;
+    border-radius: 20px;
+  }
+
+  .accordion .accordp{
+    background-color: #0B0B15;
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+  }
