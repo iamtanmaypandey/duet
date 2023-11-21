@@ -1027,21 +1027,23 @@ span.cursor.typing {
 .scrolling-wrapper {
     overflow-x: scroll;
     overflow-y: hidden;
-    white-space: nowrap;
     scroll-behavior: smooth;
     -ms-overflow-style: none;
     scrollbar-width: none;
+    /*white-space: nowrap;*/
+    display: flex;
 }
 .scrolling-wrapper::-webkit-scrollbar{
     display: none;
 }
-.scrolling-wrapper::-ms-
+
 .scrolling-wrapper .carding {
-    width:33.33%;
+    flex: 0 0 33.33%;
     padding-left: 2%;
     padding-right: 2%;
     display: inline-block;
     background-color: inherit;
+
 }
 .scrolling-wrapper .carding .sliding {
     border-radius: 15px;
@@ -1051,11 +1053,9 @@ span.cursor.typing {
     padding-left: 10%;
     padding-right: 10%;
     color: white;
-    height: 300px;
-    width:100%;
-    word-wrap: break-word;
+    height: 400px;
+    width:100%;   
   }
-
   .scrolling-wrapper .carding .sliding:hover{
     background: linear-gradient(94deg, rgba(106, 182, 252, 0.30) 0%, rgba(91, 99, 221, 0.30) 20.83%, rgba(154, 68, 179, 0.30) 40.1%, rgba(202, 69, 135, 0.30) 60.94%, rgba(212, 80, 98, 0.3) 80.21%, rgba(231, 121, 68, 0.30) 100%);
   }
@@ -1100,24 +1100,44 @@ span.cursor.typing {
 
 
   .scrolling-wrapper .change-card {
-    width:50%;
+    flex: 0 0 50%;
     padding-left: 2%;
     padding-right: 2%;
     display: inline-block;
     background-color: inherit;
+    
 }
 .slider-duet-2 {
-    height: 300px;
+    min-height: 300px;
     width: 100%;
     background: url('../public/image-68@2x.png');
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
     max-width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .slider-duet-2 div {
-    padding-top:70%;
-    width:80%;
-    word-wrap: normal;
+   margin-top:auto;
+   margin-bottom: 10px;
+}
+
+.scrolling-wrapper .cont-fines{
+    
+    flex: 0 0 100%;
+    
+}
+
+.button-arrows-test {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: var(--color-dar);
+    color: var(--color-royalblue);
+    border-radius: 50%;
+    font-weight: bolder;
+    font-size:20px;
 }

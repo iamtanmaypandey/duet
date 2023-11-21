@@ -163,17 +163,24 @@
 }
 
 .scrolling-wrapper .carding {
-    width:80%;
+    flex: 0 0 80%;
     padding-left: 2%;
     padding-right: 2%;
     display: inline-block;
     background-color: inherit;
 }
 .scrolling-wrapper .change-card {
-    width:80%;
+    flex: 0 0 80%;
     padding-left: 2%;
     padding-right: 2%;
     display: inline-block;
     background-color: inherit;
+}
+
+.scrolling-wrapper .carding .sliding {
+    min-height:300px;
+}
+.adjust{
+    padding-left:10%;padding-right:10%;
 }
 }
