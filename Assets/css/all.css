@@ -941,3 +941,70 @@ span.cursor.typing {
     font-weight: bold;
     font-size: 20px;
   }
+  .duet-icon-1-m{
+    position: absolute;
+    transform: translateY(-300px) translateX(-190px);
+    animation-name: duet-icon-1-m;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes duet-icon-1-m {
+    0%{transform: translateY(-300px) translateX(-190px);}
+    25%{transform:  translateY(-80px) translateX(-100px);}
+    50%{transform: translateY(-170px) translateX(100px);}
+    75%{transform: translateY(-360px) translateX(50px);} 
+    100%{transform: translateY(-300px) translateX(-190px);} 
+}
+.duet-icon-2-m{
+    position: absolute;
+    transform: translateY(-360px) translateX(50px);
+    animation-name: duet-icon-2-m;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes duet-icon-2-m {
+    0%{transform: translateY(-360px) translateX(50px);}
+    25%{transform: translateY(-300px) translateX(-190px);}
+    50%{transform:  translateY(-80px) translateX(-100px);}
+    75%{transform: translateY(-170px) translateX(100px);}
+    100%{transform: translateY(-360px) translateX(50px);}  
+}
+.duet-icon-3-m{
+    position: absolute;
+    transform: translateY(-170px) translateX(100px);
+    animation-name: duet-icon-3-m;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes duet-icon-3-m {
+    0%{transform: translateY(-170px) translateX(100px);}  
+    25%{transform: translateY(-360px) translateX(50px);}
+    50%{transform: translateY(-300px) translateX(-190px);}
+    75%{transform:  translateY(-80px) translateX(-100px);}
+    100%{transform: translateY(-170px) translateX(100px);}  
+}
+.duet-icon-4-m{
+    position: absolute;
+    transform: translateY(-80px) translateX(-100px);
+    animation-name: duet-icon-4-m;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes duet-icon-4-m {
+    0%{transform: translateY(-80px) translateX(-100px);}
+    25%{transform: translateY(-170px) translateX(100px);}  
+    50%{transform: translateY(-360px) translateX(50px);}
+    75%{transform: translateY(-300px) translateX(-190px);}
+    100%{transform:  translateY(-80px) translateX(-100px);}
+}
+
+.rowing .col-sm-9 {
+    float: left;
+    width: 75%;
+}
+
+.rowing .col-sm-3 {
+    float: left;
+    width: 25%;
+}
