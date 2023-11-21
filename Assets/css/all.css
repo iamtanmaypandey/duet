@@ -1025,11 +1025,17 @@ span.cursor.typing {
 
 
 .scrolling-wrapper {
-    overflow-x: hidden;
+    overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
     scroll-behavior: smooth;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
+.scrolling-wrapper::-webkit-scrollbar{
+    display: none;
+}
+.scrolling-wrapper::-ms-
 .scrolling-wrapper .carding {
     width:33.33%;
     padding-left: 2%;
