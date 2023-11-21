@@ -162,8 +162,8 @@
                 </div>
                 <div class="col-sm-6">
                     <div class="section-program-for-you">
-                        
-                        <div class="green-bulletin">
+                        <p style="padding-top:30px" class="desktop-hide"></p>
+                        <div class="green-bulletin" style="opacity:1;">
                             <div class="row">
                                 <div class="col-sm-2">
                                     <img style="width: 100%;" class="mobile-hide" src="./Assets/public/tick-square.svg" />
@@ -281,7 +281,7 @@
                                 </div>
                             </div>
                         </div>
-
+                        <p style="padding-top:30px" class="desktop-hide"></p>
                     </div>
                 </div>
             </div>
@@ -300,7 +300,7 @@
                     <p style="padding-top:30px"></p>
                     <div class="duet-powerpack-cards-sup">
                         <div class="duet-powerpack-cards" id="duet-cards-powerpack">
-                            <div class="card-powerpack" id="card-powrpack-1">
+                            <div class="card-powerpack" id="card-powrpack-1" style="opacity:1;">
                                 <h6 id="card-powerpack" class="card-box-duet">
                                     <b>Nutritional Navigator</b>: Discover a personalized nutrition plan tailored to
                                     your
@@ -408,7 +408,7 @@
         </center>
         <p style="padding-top:100px"></p>
         <center>
-            <div class="row" style="max-width: 100%;padding-left: 10%;">
+            <div class="row" style="height:110%;max-width: 100%;padding-left: 10%;">
 
                 <div class="col-sm-6">
                     <div class="section-heading">Post-Program Transformations</div>
@@ -1479,15 +1479,15 @@ var slidder = 0;
     setInterval(slidertoaster, 1500);
     function slidertoaster(){
         if(slidder == 6){
-            for(let i = 0; i < 6; i++){
-                yourprogram[i].style.display='none';
+            for(let i = 1; i < 6; i++){
+                yourprogram[i].style.opacity=0;
             }
             slidder = 0;
         }   
         else{
             /*yourprogram[slidder].style.display='none';*/
             slidder = slidder + 1;
-            yourprogram[slidder].style.display='block';
+            yourprogram[slidder].style.opacity=1;
         } 
     }
 
@@ -1497,15 +1497,15 @@ var slidder = 0;
     setInterval(sliddertoaster, 1500);
     function sliddertoaster(){
         if(sliddder == 5){
-            for(let i = 0; i < 6; i++){
-                yourprogrram[i].style.display='none';
+            for(let i = 1; i < 6; i++){
+                yourprogrram[i].style.opacity=0;
             }
             sliddder = 0;
         }   
         else{
             /*yourprogram[slidder].style.display='none';*/
             sliddder = sliddder + 1;
-            yourprogrram[sliddder].style.display='block';
+            yourprogrram[sliddder].style.opacity=1;
         } 
     }
 

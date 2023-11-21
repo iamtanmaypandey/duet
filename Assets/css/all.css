@@ -750,8 +750,8 @@ body {
 }
 
 .duet-powerpack-cards-sup{
-    min-height: 800px!important;
-    max-height: 800px;
+    min-height: fit-content;
+    max-height: fit-content;
 }
 /*.duet-powerpack-cards{
     height: 100px;
@@ -840,16 +840,17 @@ span.cursor.typing {
     padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    display: none;
+    display: block;
+    opacity:0;
 }
 
 .green-bulletin:first-child{
     display: block;
 }
 .section-program-for-you{
-    height:650px;
+    height:fit-content;
 }
-.card-powerpack{display: none;}
+.card-powerpack{display: block;opacity:0;}
 
 .duet-icon-1{
     position: absolute;
