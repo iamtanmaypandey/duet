@@ -169,4 +169,11 @@
     display: inline-block;
     background-color: inherit;
 }
+.scrolling-wrapper .change-card {
+    width:80%;
+    padding-left: 2%;
+    padding-right: 2%;
+    display: inline-block;
+    background-color: inherit;
+}
 }
