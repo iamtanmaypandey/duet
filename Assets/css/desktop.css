@@ -111,4 +111,7 @@
 .desktop-hide{
     display: none;
 }
+#loader img{
+    width:40%;
+}
 }

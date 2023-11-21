@@ -662,6 +662,7 @@ body {
     color: var(--color-royalblue);
     border-radius: 50%;
     font-weight: bolder;
+    font-size:30px;
 }
 
 
@@ -1010,4 +1011,107 @@ span.cursor.typing {
 .rowing .col-sm-3 {
     float: left;
     width: 25%;
+}
+.go-left-slides{
+    animation-name:go-left;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+@keyframes go-left {
+    100%{
+        transform: translateX(-300px);
+    }
+}
+
+
+.scrolling-wrapper {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+}
+.scrolling-wrapper .carding {
+    width:33.33%;
+    padding-left: 2%;
+    padding-right: 2%;
+    display: inline-block;
+    background-color: inherit;
+}
+.scrolling-wrapper .carding .sliding {
+    border-radius: 15px;
+    background: linear-gradient(94deg, rgba(106, 182, 252, 0.10) 0%, rgba(91, 99, 221, 0.10) 20.83%, rgba(154, 68, 179, 0.10) 40.1%, rgba(202, 69, 135, 0.10) 60.94%, rgba(212, 80, 98, 0.10) 80.21%, rgba(231, 121, 68, 0.10) 100%);
+    padding-top:50px;
+    padding-bottom: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: white;
+    height: 300px;
+    width:100%;
+    word-wrap: break-word;
+  }
+
+  .scrolling-wrapper .carding .sliding:hover{
+    background: linear-gradient(94deg, rgba(106, 182, 252, 0.30) 0%, rgba(91, 99, 221, 0.30) 20.83%, rgba(154, 68, 179, 0.30) 40.1%, rgba(202, 69, 135, 0.30) 60.94%, rgba(212, 80, 98, 0.3) 80.21%, rgba(231, 121, 68, 0.30) 100%);
+  }
+
+  .scrolling-wrapper {
+    -webkit-overflow-scrolling: touch;
+  }
+
+  #loader{
+    backdrop-filter: blur(100px);
+    background-color: rgba(255, 255, 255, 0.103);
+    height:100vh;
+    width: 100%;
+    z-index: 99999999999;
+    position: fixed;
+    top:0;
+    left: 0;
+    padding-top:40vh;
+    animation-name:loader;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
+  }
+
+  #loader img{
+    animation-name:loader;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    width:80%;
+  }
+
+  @keyframes loader {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+  }
+
+
+  .scrolling-wrapper .change-card {
+    width:50%;
+    padding-left: 2%;
+    padding-right: 2%;
+    display: inline-block;
+    background-color: inherit;
+}
+.slider-duet-2 {
+    height: 300px;
+    width: 100%;
+    background: url('../public/image-68@2x.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+.slider-duet-2 div {
+    padding-top:70%;
+    width:80%;
+    word-wrap: normal;
 }

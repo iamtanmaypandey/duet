@@ -161,4 +161,12 @@
     padding-top:50px;
     display: none;
 }
+
+.scrolling-wrapper .carding {
+    width:80%;
+    padding-left: 2%;
+    padding-right: 2%;
+    display: inline-block;
+    background-color: inherit;
+}
 }
