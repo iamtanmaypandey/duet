@@ -1309,12 +1309,13 @@
 
     var slidingcont = document.getElementById('sliding-new');
     slidingcont.scrollLeft -= (slidingcont.clientWidth/3) - 50;
+    widthsduet2 = lidingcont.clientWidth/3;
     function duetslide2(x) {
         if(x==1){
-            slidingcont.scrollLeft += 270;
+            slidingcont.scrollLeft += widthsduet2;
         }
         else{
-            slidingcont.scrollLeft -= 270;
+            slidingcont.scrollLeft -= widthsduet2;
         }   
     }
 
