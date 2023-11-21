@@ -95,10 +95,10 @@ body {
 
 .section-heading {
     letter-spacing: 0.04em;
+    height: fit-content;
     text-transform: uppercase;
     font-family: var(--font-helvetica);
     color: var(--color-sandybrown-300);
-
 }
 
 .homepage-child {
@@ -277,7 +277,9 @@ body {
     animation-name: ease-in-come;
     animation-duration: 2s;
     animation-iteration-count: 1;
+    max-width: 100%;
 }
+
 @keyframes ease-in-come {
 0%{ opacity: 0; transform: translateX(300px)}
 100% {opacity :1;right:0%;}    
